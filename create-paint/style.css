@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: dimgrey;
+}
+
+.main-container {
+  padding: 8px;
+}
+
+#btn-container {
+  margin-bottom: 8px;
+}
+
+#square-box {
+  display: flex;
+  gap: 8px;
+  min-height: 200px;
+  flex-wrap: wrap;
+}
+
+.circle {
+  padding: 80px;
+  border: solid 4px black;
+  border-radius: 50%;
+}
+
+.square {
+  padding: 80px;
+  border: solid 4px black;
+}
