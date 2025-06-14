@@ -4,10 +4,16 @@ document.getElementById("create-button").addEventListener("click", function () {
   document.getElementById("square-box").appendChild(quadrado);
 });
 
-document.getElementById("circle").addEventListener("click", function () {
+document.getElementById("circle-button").addEventListener("click", function () {
   let circulo = document.createElement("span");
   circulo.className = "circle";
   document.getElementById("square-box").appendChild(circulo);
+});
+
+document.getElementById("triangle-button").addEventListener("click", function () {
+  let triangulo = document.createElement("span");
+  triangulo.className = "triangle";
+  document.getElementById("square-box").appendChild(triangulo);
 });
 
 document.getElementById("color-button").addEventListener("click", function () {
