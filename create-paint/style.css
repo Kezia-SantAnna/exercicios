@@ -5,6 +5,10 @@ body {
   background-color: dimgrey;
 }
 
+h1 {
+  padding: 8px;
+}
+
 .main-container {
   padding: 8px;
 }
