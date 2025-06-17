@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
+  background-image: url(assets/outra\ folha.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 80%;
+}
+
+.div-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 12px;
+}
+
+.box-container {
+  display: grid;
+  border: solid 4px;
+  padding: 12px;
+  width: 70%;
+}
+
+.presentation {
+  font-size: 24px;
+}
+
+.button-book {
+  margin-top: 8px;
+  background: repeating-linear-gradient(
+    white,
+    white 28px,
+    #cfe3ff 29px,
+    #cfe3ff 30px
+  );
+  color: #2a2a2a;
+  border: 1px solid #b0b0b0;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: "Comic Sans MS", "Patrick Hand", cursive;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.button-book:hover {
+  background-color: #f7faff;
+  transform: scale(1.03);
+}
+
+.button-book:active {
+  transform: scale(0.97);
+}
