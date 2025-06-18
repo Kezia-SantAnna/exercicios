@@ -56,3 +56,15 @@ img {
 .button:active {
   transform: scale(0.97);
 }
+
+@media (width <= 425px) {
+  .div-box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .box-container {
+    margin-bottom: 12px;
+    width: 90%;
+  }
+}
