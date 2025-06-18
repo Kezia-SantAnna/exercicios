@@ -28,7 +28,8 @@ img {
   font-size: 24px;
 }
 
-.button-book {
+.button {
+  text-align: center;
   margin-top: 8px;
   background: repeating-linear-gradient(
     white,
@@ -47,11 +48,11 @@ img {
   transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
-.button-book:hover {
+.button:hover {
   background-color: #f7faff;
   transform: scale(1.03);
 }
 
-.button-book:active {
+.button:active {
   transform: scale(0.97);
 }

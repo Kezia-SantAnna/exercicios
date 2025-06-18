@@ -45,8 +45,8 @@ document.getElementById("delete-button").addEventListener("click", function () {
 
 // console.log(arrayName);
 
-// let novaLista = document.createElement(“ul”);
+let novaLista = document.createElement("ul");
 
-// novaLista.innerHTML = “<li>Tarefa 1</li><li>Tarefa 2</li>”;
+novaLista.innerHTML = "<li>Tarefa 1</li><li>Tarefa 2</li>";
 
-// document.body.appendChild(novaLista);
+document.body.appendChild(novaLista);
