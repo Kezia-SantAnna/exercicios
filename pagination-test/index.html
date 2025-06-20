@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>pagination</title>
-  <style>
-    body{
-      background-color: rgb(179, 196, 211);
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pagination</title>
+    <style>
+      body {
+        background-color: rgb(179, 196, 211);
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
 
-    nav{
-      background-color: aqua;
-      display: flex;
-      padding: 8px;
-      width: 100%;
-    }
+      nav {
+        background-color: aqua;
+        display: flex;
+        padding-block: 8px;
+        width: 100%;
+      }
 
-    a{
-      margin: auto;
-      font-size: large;
-      cursor: pointer;
-    }
-  </style>
-</head>
-<body>
-<header>
-<nav>
-  <a>Home</a>
-  <a>About</a>
-  <a>Contact</a>
-</nav>
-</header>
-<h1>Meu titulo</h1>
-<main>
-  Essa é a minha pagina Home Page
-</main>
-<script src="script.js"></script>
-</body>
+      a {
+        margin: auto;
+        font-size: large;
+        cursor: pointer;
+      }
+
+      #root-page {
+        margin-left: 8px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a id="home">Home</a>
+        <a id="about">About</a>
+        <a id="contact">Contact</a>
+      </nav>
+    </header>
+    <main id="root-page"></main>
+    <script src="script.js"></script>
+  </body>
 </html>
